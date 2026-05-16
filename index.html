@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CloudCollab – Projektmanagement für Teams | NexGen Solutions</title>
+  <meta name="description" content="CloudCollab ist die kollaborative Projektplattform für remote Teams. Jetzt kostenlos testen oder Abo abschließen.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Direkt zum Inhalt springen</a>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" aria-label="Hauptnavigation">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='8' fill='%23ffffff'/%3E%3Cpath d='M20 8 L28 16 L20 24 L12 16 Z' fill='%231E3A8A'/%3E%3C/svg%3E" alt="NexGen Solutions Logo" width="40" height="40">
+        NexGen Solutions
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Navigation umschalten">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarMain">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Shop</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">Marke</a></li>
+          <li class="nav-item"><a class="nav-link" href="license.html">Lizenz</a></li>
+          <li class="nav-item"><a class="nav-link" href="accessibility.html">Barrierefreiheit</a></li>
+          <li class="nav-item"><a class="nav-link" href="privacy.html">Datenschutz</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Kontakt</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main-content">
+    <!-- Hero -->
+    <section class="bg-light py-5" style="background: linear-gradient(rgba(30,58,138,0.7), rgba(30,58,138,0.7)), url('https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80') center/cover no-repeat; color: #fff;">
+      <div class="container py-5 text-center">
+        <h1 class="display-4 fw-bold">CloudCollab – Zusammenarbeit neu gedacht</h1>
+        <p class="lead">Projektmanagement, Zeiterfassung und Team-Chat in einer einzigen, sicheren Cloud-Plattform.</p>
+        <a href="#pricing" class="btn btn-primary btn-lg mt-3">Pläne vergleichen</a>
+      </div>
+    </section>
+
+    <!-- Produktbeschreibung -->
+    <section class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Funktionen, die Ihr Team voranbringen</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h3 class="h5">Aufgaben & Kanban</h3>
+                <p>Erstellen, zuweisen und verfolgen Sie Aufgaben mit flexiblen Boards und Timeline-Ansichten.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h3 class="h5">Zeiterfassung & Berichte</h3>
+                <p>Stoppen Sie Arbeitszeiten direkt und erstellen Sie aussagekräftige Reports für Kunden.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h3 class="h5">Integrierte Videocalls</h3>
+                <p>Starten Sie Meetings aus einer Aufgabe heraus – kein Wechsel zwischen Tools mehr.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Preisstaffel -->
+    <section id="pricing" class="py-5 bg-white">
+      <div class="container">
+        <h2 class="text-center mb-5">Wählen Sie Ihren Plan</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+          <!-- Free -->
+          <div class="col">
+            <div class="price-card card h-100 p-4">
+              <h3 class="h4">Free</h3>
+              <p class="display-6">0 €<small class="fs-6 fw-normal">/Monat</small></p>
+              <ul class="list-unstyled">
+                <li>✓ Bis zu 3 Projekte</li>
+                <li>✓ 5 GB Speicher</li>
+                <li>✓ Grundlegende Berichte</li>
+                <li>✗ Video-Integration</li>
+              </ul>
+              <button class="btn btn-outline-primary mt-auto" onclick="mockAddToCart('Free')">Kostenlos starten</button>
+            </div>
+          </div>
+          <!-- Pro -->
+          <div class="col">
+            <div class="price-card card h-100 p-4 featured">
+              <h3 class="h4">Pro</h3>
+              <p class="display-6">9,99 €<small class="fs-6 fw-normal">/Monat</small></p>
+              <ul class="list-unstyled">
+                <li>✓ Unbegrenzte Projekte</li>
+                <li>✓ 50 GB Speicher</li>
+                <li>✓ Erweiterte Berichte</li>
+                <li>✓ HD-Videocalls</li>
+              </ul>
+              <button class="btn btn-primary mt-auto" onclick="mockAddToCart('Pro')">Jetzt kaufen</button>
+            </div>
+          </div>
+          <!-- Enterprise -->
+          <div class="col">
+            <div class="price-card card h-100 p-4">
+              <h3 class="h4">Enterprise</h3>
+              <p class="display-6">Individuell</p>
+              <ul class="list-unstyled">
+                <li>✓ Alles aus Pro</li>
+                <li>✓ Eigener Server (on-prem)</li>
+                <li>✓ SSO & SLA</li>
+                <li>✓ Priorisierter Support</li>
+              </ul>
+              <button class="btn btn-outline-primary mt-auto" onclick="mockAddToCart('Enterprise')">Angebot anfordern</button>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-4">
+          <p class="text-muted">Alle Preise zzgl. MwSt. <a href="license.html">Lizenzbedingungen</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mock Checkout (vereinfacht) -->
+    <section id="checkout" class="py-5 bg-light" aria-label="Bestellformular">
+      <div class="container">
+        <h2 class="mb-4">Checkout (Demo)</h2>
+        <form class="row g-3" onsubmit="event.preventDefault(); alert('Kauf simuliert!');">
+          <div class="col-md-6">
+            <label for="firstName" class="form-label">Vorname *</label>
+            <input type="text" class="form-control" id="firstName" required>
+          </div>
+          <div class="col-md-6">
+            <label for="lastName" class="form-label">Nachname *</label>
+            <input type="text" class="form-control" id="lastName" required>
+          </div>
+          <div class="col-12">
+            <label for="email" class="form-label">E-Mail *</label>
+            <input type="email" class="form-control" id="email" required>
+          </div>
+          <div class="col-12">
+            <label for="plan" class="form-label">Gewählter Plan</label>
+            <input type="text" class="form-control" id="plan" readonly value="Keiner">
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Kauf abschließen (Simulation)</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-white py-4 mt-auto">
+    <div class="container text-center">
+      <p class="mb-1">&copy; 2025 NexGen Solutions GmbH</p>
+      <p class="mb-0">
+        <a href="contact.html" class="text-white me-2">Impressum</a>
+        <a href="privacy.html" class="text-white me-2">Datenschutz</a>
+        <a href="license.html" class="text-white">Lizenz</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    function mockAddToCart(plan) {
+      document.getElementById('plan').value = plan;
+      document.getElementById('checkout').scrollIntoView({behavior: 'smooth'});
+    }
+  </script>
+</body>
+</html>

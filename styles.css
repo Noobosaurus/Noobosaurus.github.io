@@ -1,0 +1,70 @@
+:root {
+  --primary: #1E3A8A;
+  --primary-light: #3B82F6;
+  --secondary: #F8F9FA;
+  --dark: #1F2937;
+  --text: #111827;
+  --focus-outline: 3px solid #F59E0B;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text);
+  background: #fff;
+  padding-top: 56px; /* fixed navbar */
+}
+
+a:focus, button:focus, input:focus, select:focus, textarea:focus, [tabindex]:focus {
+  outline: var(--focus-outline);
+  outline-offset: 2px;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-light);
+}
+
+.bg-primary {
+  background-color: var(--primary) !important;
+}
+
+.navbar-brand img {
+  height: 40px;
+}
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--primary);
+  color: #fff;
+  padding: 8px;
+  z-index: 1050;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+.price-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.price-card:hover {
+  transform: translateY(-5px);
+}
+
+.price-card.featured {
+  border: 2px solid var(--primary);
+}
+
+footer a {
+  color: #fff;
+  text-decoration: underline;
+}
