@@ -32,6 +32,11 @@ a:focus, button:focus, input:focus, select:focus, textarea:focus, [tabindex]:foc
   background-color: var(--primary) !important;
 }
 
+.nav-item {
+  color: var(--secondary)
+}
+
+
 .navbar-brand img {
   height: 40px;
 }
